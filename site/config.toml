@@ -1,11 +1,11 @@
 # Site settings
 baseurl = "https://kannadakatte.co.nz/"
 languageCode = "en-us"
-title = "Agency"
+title = "Wellington Kannada Katte"
 theme = "agency"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "wellington-kannada-katte"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Wellington Kannada Katte"
-  description = "A portal for Kannadigas living in Wellington"
+  description = "An organisation for Kannadigas living in Wellington"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,11 +45,11 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Wellington Kannada Katte"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    logo = "logo.svg"
+    services = "Events"
+    portfolio = "Gallery"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -63,13 +63,7 @@ googleAnalytics = ""
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
-
+    
 
   # Hero section
   [params.hero]
