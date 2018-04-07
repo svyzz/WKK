@@ -48,9 +48,9 @@ googleAnalytics = "wellington-kannada-katte"
     # brand = "Wellington Kannada Katte"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "Events"
+    services = "About"    
+    about = "Events"
     portfolio = "Gallery"
-    about = "About"
     team = "Team"
     contact = "Contact"
 
@@ -69,7 +69,7 @@ googleAnalytics = "wellington-kannada-katte"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "The Wellington Kannada Katte"
+    title = "Wellington Kannada Katte"
     subtitle = "ನಮಸ್ಕಾರ!"
     buttonText = "Tell me more"
 
@@ -77,8 +77,8 @@ googleAnalytics = "wellington-kannada-katte"
   # Services section
   [params.services]
     enable = true
-    title = "Upcoming Events"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "About"
+    subtitle = "ಇಲ್ಲಿಯವರೆಗಿನ ಕಥೆ (ಮತ್ತು ನಮ್ಮ ಬಗ್ಗೆ)"
 
     [[params.services.row]]
 
@@ -100,28 +100,12 @@ googleAnalytics = "wellington-kannada-katte"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
-  # Portfolio section
-  [params.portfolio]
-    enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Gallery"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
-
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Events"
+    subtitle = "ಮುಂಬರುವ (ಮತ್ತು ಹಿಂದಿನ) ಕಾರ್ಯಕ್ರಮಗಳು"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -152,13 +136,30 @@ googleAnalytics = "wellington-kannada-katte"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Gallery"
+    subtitle = "ಸ್ಥಿರ ಚಿತ್ರಗಳು!"
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+      
+
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our members of the committee"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Members of the committee"
+    subtitle = "ಕಾರ್ಯಕಾರಿ ಸಮಿತಿ (ಮತ್ತು ಸ್ವಯಂಸೇವಕರು)"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -208,9 +209,9 @@ She worked at Pied Piper for years until they went belly up."""
     [params.clients_list]
       enable = true
       # Possibility to center items
-      #center = true
+      # center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      # title = "Used and trusted by"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
@@ -235,7 +236,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "ಕನ್ನಡ ಕಟ್ಟೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -309,5 +310,5 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Instagram"
 
     [[params.footer.quicklinks]]
-      text = "Made by NP-Complete"
+      text = "Created by NP-Complete"
       link = "https://github.com/svyzz"
