@@ -18,7 +18,7 @@ googleAnalytics = "wellington-kannada-katte"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Wellington Kannada Katte"
-  description = "An organisation for Kannadigas living in Wellington"
+  description = "An Organisation for Kannadigas living in Wellington"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -31,17 +31,8 @@ googleAnalytics = "wellington-kannada-katte"
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+    heading = "The page you were looking for couldn't be found"
+    text = "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ಬದಲಿಗೆ [ಈ](/) ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ."
 
   # Navigation
   [params.navigation]
@@ -261,7 +252,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    #error = "Message could not be sent. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -312,3 +303,7 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.footer.quicklinks]]
       text = "Created by NP-Complete"
       link = "https://github.com/svyzz"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of use"
+      link = "/about/terms"
