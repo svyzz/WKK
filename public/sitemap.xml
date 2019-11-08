@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kannadakatte.co.nz/about/terms/</loc>
+    <loc>/about/terms/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kannadakatte.co.nz/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://kannadakatte.co.nz/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://kannadakatte.co.nz/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>https://kannadakatte.co.nz/</loc>
+    <loc>/</loc>
   </url>
   
 </urlset>

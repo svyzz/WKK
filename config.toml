@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://kannadakatte.co.nz/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Wellington Kannada Katte"
 theme = "agency"
