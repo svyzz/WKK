@@ -18,7 +18,7 @@ googleAnalytics = "wellington-kannada-katte"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Wellington Kannada Katte"
-  description = "An Organisation for Kannadigas living in Wellington"
+  description = "The Wellington Kannada Katte works to promote and preserve the cultural and linguistic heritage of Karnataka in the Greater Wellington Region"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -97,7 +97,7 @@ googleAnalytics = "wellington-kannada-katte"
     enable = true
     title = "Events"
     subtitle = "ಮುಂಬರುವ (ಮತ್ತು ಹಿಂದಿನ) ಕಾರ್ಯಕ್ರಮಗಳು"
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "ಬನ್ನಿ<br>ನಮ್ಮೊಂದಿಗೆ<br>ಸೇರಿಕೊಳ್ಳಿ!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -111,19 +111,19 @@ googleAnalytics = "wellington-kannada-katte"
     [[params.about.events]]
       img = "2.jpg"
       date = "March 2011"
-      title = "An Agency is Born"
+      title = "Our first communal event"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "3.jpg"
       date = "December 2012"
-      title = "Our Humble Beginnings"
+      title = "Celebrations for Sankranti"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "July 2014"
-      title = "Phase Two Expansion"
+      title = "Kannada Rajyotsava"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
@@ -158,18 +158,14 @@ googleAnalytics = "wellington-kannada-katte"
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      name = "Pooja Venkatesh"
+      position = "President"      
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "Lorem Ipsum for [member dashboard](#)",
+        "Dolor Sit Amet for [awesome-project](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde"""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -178,8 +174,8 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Ram Bharadwaj"
+      position = "Secretary"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -188,8 +184,8 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Deepa Ravindra"
+      position = "Cultural Lead"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -242,17 +238,18 @@ She worked at Pied Piper for years until they went belly up."""
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
 
-    # It is possible to substitute formspring with other providers
+    # It is possible to substitute Formspree with other providers
     # as an example the mailout plugin from caddy.
+
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "kannada.katte@outlook.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be sent. Please contact us at mail@example.com instead."
+    thanks = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ - ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
+    error = "ಕ್ಷಮಾಪಣೆ! Your message could not be sent! Please contact us at kannada.katte@outlook.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -287,22 +284,22 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/kannada_katte"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/KannadaKatteWellington/"
       title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      link = "#"
+      link = "https://www.instagram.com/kannada_katte/"
       title = "Instagram"
 
     [[params.footer.quicklinks]]
-      text = "Created by NP-Complete"
-      link = "https://github.com/svyzz"
+      text = "Created by Arun Venkatram"
+      link = "https://arun-venkatram.me"
 
     [[params.footer.quicklinks]]
       text = "Terms of use"
