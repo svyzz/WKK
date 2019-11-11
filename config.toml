@@ -31,8 +31,8 @@ googleAnalytics = "wellington-kannada-katte"
 
   # 404 error customization
   [params.error404]
-    heading = "The page you were looking for couldn't be found"
-    text = "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ಬದಲಿಗೆ [ಈ](/) ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ."
+    heading = "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ!"
+    text = "ಬದಲಿಗೆ ಈ [ಪುಟಕ್ಕೆ](/) ಹಿಂತಿರುಗಿ."
 
   # Navigation
   [params.navigation]
@@ -42,7 +42,7 @@ googleAnalytics = "wellington-kannada-katte"
     services = "About"    
     about = "Events"
     portfolio = "Gallery"
-    team = "Team"
+    team = "Committee"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -96,7 +96,7 @@ googleAnalytics = "wellington-kannada-katte"
   [params.about]
     enable = true
     title = "Events"
-    subtitle = "ಮುಂಬರುವ (ಮತ್ತು ಹಿಂದಿನ) ಕಾರ್ಯಕ್ರಮಗಳು"
+    subtitle = " ಹಿಂದಿನ (ಮತ್ತು ಮುಂಬರುವ) ಕಾರ್ಯಕ್ರಮಗಳು"
     endpoint = "ಬನ್ನಿ<br>ನಮ್ಮೊಂದಿಗೆ<br>ಸೇರಿಕೊಳ್ಳಿ!"
 
     # The events will be listed from the top to the bottom.
@@ -198,7 +198,7 @@ googleAnalytics = "wellington-kannada-katte"
       # Possibility to center items
       # center = true
       # Optional client title specifying the involvement
-      # title = "Used and trusted by"
+      title = "ನಮ್ಮ ಪ್ರಾಯೋಜಕರು ಮತ್ತು ಹಿತೈಷಿಗಳು"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
