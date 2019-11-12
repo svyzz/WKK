@@ -32,16 +32,16 @@ googleAnalytics = "wellington-kannada-katte"
   # 404 error customization
   [params.error404]
     heading = "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ!"
-    text = "ಬದಲಿಗೆ ಈ [ಪುಟಕ್ಕೆ](/) ಹಿಂತಿರುಗಿ."
+    text = "ಬದಲಿಗೆ [ಈ ಪುಟಕ್ಕೆ](/) ಹಿಂತಿರುಗಿ."
 
   # Navigation
   [params.navigation]
     # brand = "Wellington Kannada Katte"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"    
-    about = "Events"
-    portfolio = "Gallery"
+    services = "About"   
+    portfolio = "Events"
+    about = "History"  
     team = "Committee"
     contact = "Contact"
 
@@ -50,7 +50,7 @@ googleAnalytics = "wellington-kannada-katte"
     # below and replace the values with your own.
 
     # prepended links
-    #[[menu.prepend]]
+    # [[menu.prepend]]
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
@@ -65,7 +65,7 @@ googleAnalytics = "wellington-kannada-katte"
     buttonText = "Tell me more"
 
 
-  # Services section
+  # About section
   [params.services]
     enable = true
     title = "About"
@@ -74,29 +74,46 @@ googleAnalytics = "wellington-kannada-katte"
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-heart"
-      title = "E-Commerce"
+      icon = "fa-hands-helping"
+      title = "Random One"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-hands-helping"
-      title = "Responsive Design"
+      title = "Random Two"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-heart"
-      title = "Web"
+      icon = "fa-hands-helping"
+      title = "Random Three"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
+  
+  # Events section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Our Events"
+    subtitle = "ಹಿಂದಿನ (ಮತ್ತು ಮುಂಬರುವ) ಕಾರ್ಯಕ್ರಮಗಳು"
 
-    # About section
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # History section
   [params.about]
     enable = true
-    title = "Events"
-    subtitle = " ಹಿಂದಿನ (ಮತ್ತು ಮುಂಬರುವ) ಕಾರ್ಯಕ್ರಮಗಳು"
+    title = "Our History"
+    subtitle = "ನಮ್ಮ ಪ್ರಾರಂಭ (ಮತ್ತು ಇತರ ಇತಿಹಾಸ)"
     endpoint = "ಬನ್ನಿ<br>ನಮ್ಮೊಂದಿಗೆ<br>ಸೇರಿಕೊಳ್ಳಿ!"
 
     # The events will be listed from the top to the bottom.
@@ -117,7 +134,7 @@ googleAnalytics = "wellington-kannada-katte"
     [[params.about.events]]
       img = "3.jpg"
       date = "December 2012"
-      title = "Celebrations for Sankranti"
+      title = "Sankranti Celebrations"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
@@ -125,33 +142,16 @@ googleAnalytics = "wellington-kannada-katte"
       date = "July 2014"
       title = "Kannada Rajyotsava"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-
-  # Portfolio section
-  [params.portfolio]
-    enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Gallery"
-    subtitle = "ಸ್ಥಿರ ಚಿತ್ರಗಳು!"
-
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
       
 
-  # Team section
+  # Committee section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Members of the committee"
     subtitle = "ಕಾರ್ಯಕಾರಿ ಸಮಿತಿ (ಮತ್ತು ಸ್ವಯಂಸೇವಕರು)"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -165,7 +165,7 @@ googleAnalytics = "wellington-kannada-katte"
         "Dolor Sit Amet for [awesome-project](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde"""
+      bio = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -174,8 +174,14 @@ googleAnalytics = "wellington-kannada-katte"
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Ram Bharadwaj"
+      name = "Bharat Prakash"
       position = "Secretary"
+      scope = [
+        "Lorem Ipsum for [member dashboard](#)",
+        "Dolor Sit Amet for [awesome-project](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -184,8 +190,14 @@ googleAnalytics = "wellington-kannada-katte"
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Deepa Ravindra"
+      name = "Veena Bharadwaj"
       position = "Cultural Lead"
+      scope = [
+        "Lorem Ipsum for [member dashboard](#)",
+        "Dolor Sit Amet for [awesome-project](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -196,17 +208,17 @@ googleAnalytics = "wellington-kannada-katte"
     [params.clients_list]
       enable = true
       # Possibility to center items
-      # center = true
+      center = true
       # Optional client title specifying the involvement
       title = "ನಮ್ಮ ಪ್ರಾಯೋಜಕರು ಮತ್ತು ಹಿತೈಷಿಗಳು"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
+      [[params.clients]]        
         logo = "envato.jpg"
         link = "#"
-
+      
       [[params.clients]]
         logo = "designmodo.jpg"
         link = "#"
@@ -254,19 +266,19 @@ googleAnalytics = "wellington-kannada-katte"
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
       text = "Your Name *"
-      warning = "Please enter your name."
+      warning = "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
 
     [params.contact.form.email]
       text = "Your Email *"
-      warning = "Please enter your email address."
+      warning = "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
 
     [params.contact.form.phone]
       text = "Your Phone *"
-      warning = "Please enter your phone number."
+      warning = "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
 
     [params.contact.form.message]
       text = "Your Message *"
-      warning = "Please enter a message."
+      warning = "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ"
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -300,7 +312,3 @@ googleAnalytics = "wellington-kannada-katte"
     [[params.footer.quicklinks]]
       text = "Created by Arun Venkatram"
       link = "https://arun-venkatram.me"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of use"
-      link = "/about/terms"
