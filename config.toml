@@ -41,7 +41,7 @@ googleAnalytics = "wellington-kannada-katte"
     logo = "logo.png"
     services = "About"   
     portfolio = "Events"
-    about = "History"  
+    about = "Philanthropy"  
     team = "Committee"
     contact = "Contact"
 
@@ -99,51 +99,45 @@ googleAnalytics = "wellington-kannada-katte"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Our Events"
-    subtitle = "ಹಿಂದಿನ (ಮತ್ತು ಮುಂಬರುವ) ಕಾರ್ಯಕ್ರಮಗಳು"
+    title = "Our Events and Initiatives"
+    subtitle = "ನಮ್ಮ ಕಾರ್ಯಕ್ರಮಗಳು (ಮತ್ತು ಉಪಕ್ರಮಗಳು)"
 
     [params.portfolio.modal]
-      client = "Client"
+      client = "Location"
       date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      category = "RSVP"
+      buttonText = "Close"
 
 
     # History section
   [params.about]
     enable = true
-    title = "Our History"
-    subtitle = "ನಮ್ಮ ಪ್ರಾರಂಭ (ಮತ್ತು ಇತರ ಇತಿಹಾಸ)"
+    title = "Giving back to the community"
+    subtitle = "ಮಾನವೀಯ ಮತ್ತು ಲೋಕೋಪಕಾರ ಚಟುವಟಿಕೆಗಳು"
     endpoint = "ಬನ್ನಿ<br>ನಮ್ಮೊಂದಿಗೆ<br>ಸೇರಿಕೊಳ್ಳಿ!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      img = "2.jpg"
+      date = "August 2019"
+      title = "Fundraising for vicitims of floods in Karnataka"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "Our first communal event"
+      img = "1.jpg"
+      date = "March 2019"
+      title = "Fundraising for the Christchurch terrorist attacks"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+    
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Sankranti Celebrations"
+      date = "October 2018"
+      title = "Volunteering for the Deepavali festitivities at Amesbury school"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Kannada Rajyotsava"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-      
-
+  
   # Committee section
   [params.team]
     enable = true
