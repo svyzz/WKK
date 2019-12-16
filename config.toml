@@ -262,9 +262,12 @@ googleAnalytics = "wellington-kannada-katte"
       #
       
       # Special values for name such as "page" and "site" will be autofilled
-      [[params.contact.form.hidden]]      
+      [[params.contact.form.hidden]]
         name = "_next"
-        value = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ-ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
+      
+      [[params.contact.form.hidden]]
+        name ="_gotcha"
+        
 
   # Footer section
   [params.footer]
