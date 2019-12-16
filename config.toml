@@ -11,7 +11,7 @@ googleAnalytics = "wellington-kannada-katte"
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
   #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # All icons using Fontawesome's icon font. Look at fontawesome.github.io/Font-Awesome/icons/
   # for more icons. The icons are represented by their corresponding
   # CSS class.
 
@@ -122,7 +122,7 @@ googleAnalytics = "wellington-kannada-katte"
     [[params.about.events]]
       img = "2.jpg"
       date = "August 2019"
-      title = "Fundraising for vicitims of floods in Karnataka"
+      title = "Fundraising for families affected by floods in Karnataka"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
@@ -232,30 +232,11 @@ googleAnalytics = "wellington-kannada-katte"
     subtitle  = "ಕನ್ನಡ ಕಟ್ಟೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ"
     buttonText = "Send message"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-
-    # It is possible to substitute Formspree with other providers
-    # as an example the mailout plugin from caddy.
-
-    # Provide the post URL for the form and depending on the provider
-    # add some custom JS script to finish the implementation.
-    # postURL = "https://example.com/mailout/"
-
     email = "kannada.katte@outlook.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ - ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
-    error = "ಕ್ಷಮಾಪಣೆ! Your message could not be sent! Please contact us at kannada.katte@outlook.com instead."
+    error = "ಕ್ಷಮಾಪಣೆ! ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. Please contact us at kannada.katte@outlook.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -302,6 +283,16 @@ googleAnalytics = "wellington-kannada-katte"
       icon = "fa-instagram"
       link = "https://www.instagram.com/kannada_katte/"
       title = "Instagram"
+
+    [[params.footer.social]]
+      icon = "fa-youtube"
+      link = "https://www.youtube.com/channel/UCmWXAkX00Cis0BPU58c7PQA"
+      title = "Youtube"
+
+    [[params.footer.social]]
+      icon = "fa-whatsapp"
+      link = "https://chat.whatsapp.com/3GqEKrqMyQVBzg4ACcXQk3"
+      title = "Whatsapp"
 
     [[params.footer.quicklinks]]
       text = "Created by Arun Venkatram"
