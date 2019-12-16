@@ -235,7 +235,7 @@ googleAnalytics = "wellington-kannada-katte"
     email = "kannada.katte@outlook.com"
 
     # Success and error message overwrite for async contact form
-    thanks = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ - ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
+    thanks = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ-ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
     error = "ಕ್ಷಮಾಪಣೆ! ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. Please contact us at kannada.katte@outlook.com instead."
 
     # 'warning' defines error messages for invalid inputs
@@ -260,9 +260,11 @@ googleAnalytics = "wellington-kannada-katte"
       #  name = "someID"
       #  value = "example.com"
       #
-      #[[params.contact.form.hidden]]
+      
       # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
+      [[params.contact.form.hidden]]      
+        name = "_next"
+        value = "Thank you for reaching out to us. ನಿಮ್ಮ ಇ-ಅಂಚೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಶೀಘ್ರದಲ್ಲೇ ಭೇಟಿಯಾಗೋಣ!"
 
   # Footer section
   [params.footer]
