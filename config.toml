@@ -75,19 +75,19 @@ googleAnalytics = "wellington-kannada-katte"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Random One"
+      title = "The Community"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-theater-masks"
-      title = "Random Two"
+      title = "Culture and Literature"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-hand-holding-heart"
-      title = "Random Three"
+      title = "Giving Back"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
@@ -152,7 +152,7 @@ googleAnalytics = "wellington-kannada-katte"
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Pooja Venkatesh"
+      name = "Deepa Ravindra"
       position = "President"      
       scope = [
         "Lorem Ipsum for [member dashboard](#)",
@@ -168,7 +168,7 @@ googleAnalytics = "wellington-kannada-katte"
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Bharat Prakash"
+      name = "Vijay Chandrashekhar"
       position = "Secretary"
       scope = [
         "Lorem Ipsum for [member dashboard](#)",
@@ -184,7 +184,7 @@ googleAnalytics = "wellington-kannada-katte"
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Veena Bharadwaj"
+      name = "Pooja Venkatesh"
       position = "Cultural Lead"
       scope = [
         "Lorem Ipsum for [member dashboard](#)",
