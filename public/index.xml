@@ -6,17 +6,28 @@
     <description>Recent content on Wellington Kannada Katte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>/about/terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>spf13-vim 3.0 release and new website</title>
+      <link>/about/spf13-vim-3-0-release-and-new-website/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/about/terms/</guid>
-      <description>Wellington Kannada Katte Terms of Service   Terms  By accessing the website at https://kannadakatte.co.nz, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</description>
+      <guid>/about/spf13-vim-3-0-release-and-new-website/</guid>
+      <description>Wellington Kannada Katte Terms of Service
+ Terms  By accessing the website at https://kannadakatte.co.nz, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</description>
+    </item>
+    
+    <item>
+      <title>spf13-vim 3.0 release and new website</title>
+      <link>/posts/spf13-vim-3-0-release-and-new-website/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/spf13-vim-3-0-release-and-new-website/</guid>
+      <description>Lorem Ipsum Dolor Sit Amet!!!</description>
     </item>
     
   </channel>

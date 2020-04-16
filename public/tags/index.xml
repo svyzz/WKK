@@ -6,9 +6,46 @@
     <description>Recent content in Tags on Wellington Kannada Katte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.vimrc</title>
+      <link>/tags/.vimrc/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/.vimrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plugins</title>
+      <link>/tags/plugins/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spf13-vim</title>
+      <link>/tags/spf13-vim/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spf13-vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>/tags/vim/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vim/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
