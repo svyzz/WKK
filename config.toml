@@ -291,5 +291,9 @@ googleAnalytics = "wellington-kannada-katte"
       title = "Whatsapp"
 
     [[params.footer.quicklinks]]
-      text = "Created by Arun Venkatram"
+      text = "Terms of usage"
+      link = "https://todo.todo"
+
+    [[params.footer.quicklinks]]
+      text = "Built by AV"
       link = "https://arun-venkatram.me"
